@@ -4,7 +4,7 @@
 	icon = 'icons/obj/power.dmi'
 	icon_state = "scell"
 	organ_tag = O_CELL
-	parent_organ = "chest"
+	parent_organ = BP_CHEST
 	vital = 1
 
 /obj/item/organ/internal/cell/New()
@@ -34,7 +34,7 @@
 /obj/item/organ/mmi_holder
 	name = "brain"
 	organ_tag = O_BRAIN
-	parent_organ = "chest"
+	parent_organ = BP_CHEST
 	vital = 1
 	var/obj/item/device/mmi/stored_mmi
 
